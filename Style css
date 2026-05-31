@@ -1,1 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0f14;
+  color: #e6edf3;
+}
 
+header {
+  padding: 20px;
+  text-align: center;
+  background: #111826;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+  padding: 12px;
+}
+
+section {
+  background: #161f2b;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 120px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  opacity: 0.6;
+}
