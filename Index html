@@ -1,1 +1,30 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>National Pulse Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>National Pulse</h1>
+    <p>Live snapshot of U.S. systems</p>
+  </header>
+
+  <main class="grid">
+    <section id="energy">Energy Loading...</section>
+    <section id="water">Water Loading...</section>
+    <section id="aviation">Aviation Loading...</section>
+    <section id="freight">Freight Loading...</section>
+    <section id="housing">Housing Loading...</section>
+    <section id="weather">Weather Loading...</section>
+  </main>
+
+  <footer>
+    <small>Auto-updated via GitHub Actions</small>
+  </footer>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
